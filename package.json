@@ -1,0 +1,20 @@
+{
+  "name": "yougl",
+  "version": "1.0.0",
+  "description": "WebGL2 Engine",
+  "main": "glCodeCompletion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OhBonsai/yougl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OhBonsai/yougl/issues"
+  },
+  "homepage": "https://github.com/OhBonsai/yougl#readme"
+}
