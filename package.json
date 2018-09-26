@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/OhBonsai/yougl/issues"
   },
-  "homepage": "https://github.com/OhBonsai/yougl#readme"
+  "homepage": "https://github.com/OhBonsai/yougl#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
 }
