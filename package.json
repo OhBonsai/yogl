@@ -2,9 +2,11 @@
   "name": "yougl",
   "version": "1.0.0",
   "description": "WebGL2 Engine",
-  "main": "glCodeCompletion.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,10 @@
     "url": "https://github.com/OhBonsai/yougl/issues"
   },
   "homepage": "https://github.com/OhBonsai/yougl#readme",
-  "dependencies": {
-    "babel-preset-env": "^1.7.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.26.3"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.10.0"
   }
 }
