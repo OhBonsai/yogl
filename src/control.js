@@ -1,4 +1,4 @@
-class CameraMouseCtrl {
+export default class {
 
     constructor(camera, canvas){
         let self = this;
@@ -73,8 +73,4 @@ class CameraMouseCtrl {
         this.prevX = x;
         this.prevY = y;
     }
-}
-
-export {
-    CameraMouseCtrl
 }
